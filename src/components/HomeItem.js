@@ -14,7 +14,7 @@ const HomeItem = ({item, index}) => {
     return ( 
         <div className="row my-5">
           <div className="col-lg-6 ">
-            <img src={img} alt="Producto 1" style={{objectFit:"cover", width:"100%"}}/>
+            <img src={img} alt="Producto 1" style={{objectFit:"cover", width:"100%",borderRadius: '40px'}}/>
           </div>
           <div className="col-lg-6 home-item-info " style={styles}>
             <p className="home-item-title my-2">{titulo}</p>
