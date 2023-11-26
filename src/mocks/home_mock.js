@@ -9,13 +9,13 @@ import homec4 from "../assets/claraboya/Escuela1.png"
 
 export const home_mock = [
     {
-        titulo: "Servicio de Diseño y modelado 3D",
-        texto: "Diseñamos de acuerdo a tus necesidades, el tema que estés buscando, empleando la digitalización y programas 3D para crear soluciones personalizadas. Además, te mantendremos involucrado en todo el proceso.",
+        titulo: "Iluminacion Natural en Aulas",
+        texto: "La instalación de claraboyas  en aulas escolares  va a permitir obtener los niveles de iluminación adecuados dentro del aula , obteniendo como beneficios la eficiencia energética, el bienestar de los estudiantes y el impacto positivo en el aprendizaje.",
         img: homec2
     },
     {
-        titulo: "Servicio de producción y prototipado  a baja escala.",
-        texto: "En caso de que ya dispongas de tus diseños, productos o prototipos, te ofrecemos servicios de impresión 3D en escalas baja y media. Realizamos diversas pruebas antes de proceder con la producción.",
+        titulo: "Mejorando Condiciones en Edificios Escolares",
+        texto: "Mejoramos las condiciones de confort visual y térmico en los edificios escolares mediante nuestros diseños, que dirijen y difunden uniformemente la luz del cielo, evitando a la vez la penetración de la radiación solar directa, que es el principal problema de los componentes cenitales cuando se les usa en zonas tropicales.",
         img: homec3
     },
     {
