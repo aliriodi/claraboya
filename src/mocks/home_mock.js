@@ -5,7 +5,7 @@ import home4 from "../assets/home4.png"
 import homec1 from "../assets/claraboya/claraboyas1.png"
 import homec2 from "../assets/claraboya/Fachada LN.jpg"
 import homec3 from "../assets/claraboya/Planta LN.jpg"
-import homec4 from "../assets/claraboya/claraboyas2.png"
+import homec4 from "../assets/claraboya/Escuela1.png"
 
 export const home_mock = [
     {

@@ -1,6 +1,6 @@
 import "./App.css";
 import { Layout } from "./components/Layout";
-import banner from "./assets/imagenHERO.png";
+ import banner from "./assets/claraboya/IsometraLN.jpg";
 import { home_mock } from "./mocks/home_mock";
 import HomeItem from "./components/HomeItem";
 import { products_mock } from "./mocks/products_mock";
@@ -25,7 +25,7 @@ function App() {
         <div className="home-title-container">
           <div className="home-title">
             <p className="souvenir">Claraboya</p>
-            <p className="print">Educativa</p>
+            <p className="print"> Escolar</p>
           </div>
           <p ></p>
           <p className="fiestas">Para Escuelas Rurales </p>

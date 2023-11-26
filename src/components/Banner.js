@@ -6,9 +6,10 @@ const Banner = ({ fondo, banner, titulo }) => { // Añadimos banner como prop
         position: 'relative',
         marginTop: "50px",
         height: "40vw",
-        minHeight: "200px",
+        minHeight: "100px",
         maxHeight: "550px",
-        background: fondo ? `${fondo} center/cover` : `url(${banner}) top/cover`,
+        background: fondo ? `${fondo} center/cover` : `url(${banner}) center no-repeat #000`,
+        
         overflow: 'hidden',
     };
 
@@ -31,7 +32,7 @@ const Banner = ({ fondo, banner, titulo }) => { // Añadimos banner como prop
 
     return (
         <div className="banner-container" style={containerStyle}>
-            <img src={wave} alt="Wave" style={waveStyle} />
+            {/* <img src={wave} alt="Wave" style={waveStyle} /> */}
             <h3 style={headingStyle} className='faq-title'>{titulo}</h3> {/* Reemplaza "Tu Título Aquí" con tu propio título */}
         </div>
     );
