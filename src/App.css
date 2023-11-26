@@ -138,11 +138,12 @@
 
 .home-title {
   display: flex;
+  padding-top: 40px;
   justify-content: space-between;
 }
 
 .souvenir {
-  color: var(--f-6-b-2-bf, #f6b2bf);
+  color: black;
   text-align: center;
   font-family: Pacifico;
   font-size: 82px;
@@ -168,7 +169,7 @@
 }
 
 .fiestas {
-  color: var(--f-6-b-2-bf, #f6b2bf);
+  color: black;
   font-family: "Barlow";
   font-size: 30px;
   font-style: normal;
@@ -220,6 +221,10 @@
 }
 .home-products-container {
   margin: 0 auto;
+  
+  justify-content: center; 
+  align-items: center;
+
 }
 .swiper {
   height: 100% !important;
@@ -301,9 +306,19 @@ cursor: pointer;
   display: flex;
   justify-content: center;
 }
-
+.home-products{
+  width: 60%;
+  border:2px solid red;
+ 
+}
+.separador{
+  display:flex;
+  justify-content: center;
+  
+  align-items: center;
+}
 .home-products-title {
-  color: var(--f-6-b-2-bf, #f6b2bf);
+  color: black;
   text-align: center;
   font-family: Barlow;
   font-size: 32px;
@@ -357,8 +372,10 @@ cursor: pointer;
     padding-top: 20px;
   }
   .home-item-info {
+    
     text-align: center;
     order: 1 !important;
+    
   }
   .home-item-title {
     width: 100%;
@@ -433,16 +450,7 @@ cursor: pointer;
   .react-player__preview {
     border-radius: 30px;
   }
-  .souvenir {
-    color: var(--f-6-b-2-bf, #f6b2bf);
-    text-align: center;
-    font-family: Pacifico;
-    font-size: 46px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 46px;
-    margin-bottom: 0;
-  }
+  
   .print {
     color: var(--f-5-d-131, #f2bd67);
     font-family: Barlow;
@@ -453,7 +461,7 @@ cursor: pointer;
     margin-bottom: 0;
   }
   .fiestas {
-    color: var(--f-6-b-2-bf, #f6b2bf);
+    color: black;
     font-family: Barlow;
     font-size: 26px;
     font-style: normal;

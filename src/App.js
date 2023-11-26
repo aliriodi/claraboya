@@ -1,13 +1,13 @@
 import "./App.css";
 import { Layout } from "./components/Layout";
- import banner from "./assets/claraboya/IsometraLN.jpg";
+import banner from "./assets/claraboya/IsometraLN.jpg";
 import { home_mock } from "./mocks/home_mock";
 import HomeItem from "./components/HomeItem";
-import { products_mock } from "./mocks/products_mock";
-import { Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
+//import { products_mock } from "./mocks/products_mock";
+//import { Pagination } from "swiper/modules";
+//import { Swiper, SwiperSlide } from "swiper/react";
 import play from "./assets/play-icon.png";
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 import thumbnail from "./assets/fondo-video.png";
 
 import "swiper/css";
@@ -17,7 +17,7 @@ import ReactPlayer from "react-player";
 
 function App() {
   const playIcon = <img src={play} alt="play-icon" />;
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
 
   return (
     <Layout banner={banner} color={"#F6B2BF"}>
@@ -29,22 +29,31 @@ function App() {
           </div>
           <p ></p>
           <div className="contenedorB">
-          <p className="fiestas">Transformando la Luz en Educación </p>
+            <p className="fiestas">Transformando la Luz en Educación </p>
           </div>
           <p className="diseños">
-          {/* Transformando la luz en educación */}
-           {/* Transforma las aulas con luz natural */}
+            {/* Transformando la luz en educación */}
+            {/* Transforma las aulas con luz natural */}
           </p>
-          
+
         </div>
         <div className="contenedorA">
-        {home_mock.map((data, index) => (
-          <HomeItem item={data} index={index} />
-        ))}</div>
+          {home_mock.map((data, index) => (
+            <HomeItem item={data} index={index} />
+          ))}</div>
         <div className="home-products-container">
-          <p className="home-products-title">PRODUCTOS</p>
-          <div className="home-products">
-            <Swiper
+          <p className="home-products-title">BENEFICIOS</p>
+          <div className="separador">
+            <div className="home-products">
+              <ul>
+                <li>Mejora el rendimiento y aprendizaje en los alumnos.</li>
+                <li>Reduce la mala conducta de los alumnos.</li>
+                <li>Disminuye los costos operativos en electricidad y sistemas de climatización.</li>
+                <li>La falta de luz natural altera la cronobiología (reloj biológico) y provoca alteraciones psicológicas y fisiológicas significativas.</li>
+                <li>La falta de luz natural altera el patrón hormonal básico e influye en la capacidad de los niños para concentrarse y cooperar, al tiempo que podría tener un impacto en el crecimiento anual del cuerpo.</li>
+              </ul>
+
+              {/* <Swiper
               watchSlidesProgress={true}
               slidesPerView={1}
               pagination={true}
@@ -83,20 +92,21 @@ function App() {
                   <p className="carrusel-title">{data[0].categoria}</p>
                 </SwiperSlide>
               ))}
-            </Swiper>
-            
-          </div>
-          <div className="home-more-btn-container">
-            <button
+            </Swiper> */}
+  </div>
+            </div>
+            <div className="home-more-btn-container">
+              {/* <button
               className="home-more-btn"
               onClick={() => navigate("/productos/",{ replace: true })}
             >
               VER MÁS
-            </button>
+            </button> */}
+          
           </div>
         </div>
       </div>
-      <div className="video-container">
+      {/* <div className="video-container">
         <p className="video-title">¿Cómo trabajamos?</p>
         <div className="video">
           <ReactPlayer
@@ -107,7 +117,7 @@ function App() {
             url={"https://www.youtube.com/watch?v=8APqXh7NSzs"}
           />
         </div>
-      </div>
+      </div> */}
     </Layout>
   );
 }

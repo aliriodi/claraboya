@@ -1,5 +1,5 @@
 import React from 'react';
-import wave from '../assets/wave.svg';
+//import wave from '../assets/wave.svg';
 
 const Banner = ({ fondo, banner, titulo }) => { // Añadimos banner como prop
     const containerStyle = {
@@ -13,14 +13,14 @@ const Banner = ({ fondo, banner, titulo }) => { // Añadimos banner como prop
         overflow: 'hidden',
     };
 
-    const waveStyle = {
-        position: 'absolute',
-        bottom: 0,
-        left: 0,
-        width: '100%',
-        height: 'auto',
-        zIndex: 1,
-    };
+    // const waveStyle = {
+    //     position: 'absolute',
+    //     bottom: 0,
+    //     left: 0,
+    //     width: '100%',
+    //     height: 'auto',
+    //     zIndex: 1,
+    // };
 
     const headingStyle = {
         position: 'absolute',

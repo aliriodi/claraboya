@@ -1,7 +1,3 @@
-import home1 from "../assets/home1.png"
-import home2 from "../assets/home2.png"
-import home3 from "../assets/home3.png"
-import home4 from "../assets/home4.png"
 import homec1 from "../assets/claraboya/claraboyas1.png"
 import homec2 from "../assets/claraboya/Fachada LN.jpg"
 import homec3 from "../assets/claraboya/Planta LN.jpg"
@@ -14,7 +10,7 @@ export const home_mock = [
         img: homec2
     },
     {
-        titulo: "Mejorando Condiciones en Edificios Escolares",
+        titulo: "Mejorando Condiciones en Aulas",
         texto: "Mejoramos las condiciones de confort visual y térmico en los edificios escolares mediante nuestros diseños, que dirijen y difunden uniformemente la luz del cielo, evitando a la vez la penetración de la radiación solar directa, que es el principal problema de los componentes cenitales cuando se les usa en zonas tropicales.",
         img: homec3
     },
@@ -24,8 +20,8 @@ export const home_mock = [
         img: homec1
     },
     {
-        titulo: "Muy pronto",
-        texto: "Estamos organizando cursos de capacitación especialmente para ti, con el propósito de brindarte las habilidades necesarias para crear tus propios souvenirs mediante la tecnología de impresión 3D. Imagina poder diseñar y elaborar tus recuerdos únicos para tus eventos.",
+        titulo: "Sitios aplicables",
+        texto: "Este enfoque es aplicable en escuelas con techos a dos aguas, y busca abordar el impacto ambiental y energético causado por el consumo eléctrico asociado con la iluminación artificial en las aulas. Según estimaciones, el consumo en una sola aula supera los 1430 kWh al año. Esta problemática afecta a más de 5500 centros escolares de educación primaria en Venezuela, según datos del INE (2012-2013).",
         img: homec4
     }
 ]
