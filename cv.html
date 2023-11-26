@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Jennny</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script>
+        var obj = {
+            bio: 'Jenny Franco G. con 11 años de experiencia en la revisión y análisis de Proyectos IPC de edificios operacionales, administrativos y residenciales, desarrollados para Industria Petrolera en conjunto con equipos multidisciplinarios. 2 años de experiencia elaboración de planos técnicos para la construcción/ remodelación de locales comerciales, viviendas eterminales terrestre. Experiencia y conocimiento en aplicación tecnológica de sistemas constructivos prefabricados. Conocimiento en el diseño de piezas para impresión 3D. Madre y emprendedora con conocimiento básico en modelo de negocios CANVA',
+            name: 'Jenny Morella Franco García',
+            direccion: 'Cordoba Capital, Antonio del Viso 980',
+            email: 'jennyfrancog@gmail.com',
+            documento: '96.015.559',
+            profesion: 'Arquitecto',
+            cel: '+54 351-591-3974',
+            formacion1: 'ARQUITECTO Universidad Nacional del Táchira UNET, Venezuela, abril 1998 - Marzo, 2005. Promedio: 6.59 / 9.0',
+            formacion2: 'Postgrado: ESPECIALISTA EN DESARROLLO TECNOLOGÍCO DE LA CONSTRUCCIÓN, Universidad Central de Venezuela, IDEC: Instituto de Desarrollo Experimental de la Construcción. Caracas, 2016',
+            herramienta: ['HTML, CSS, Javascript', '3D Printing and Modeling for Beginners (MINI+) para impresiones 3D', 'Foundations of user experience Design UX Basico', 'AutoCAD 2D y 3D avanzado', 'Sketchup básico', 'Office: Excel, Power Point, Word, Project', 'Adobe Photoshop y Illustrarter básico'],
+            habilidades: ['Buenas habilidades de organización y gestión del tiempo. Trabajo en equipo', 'Responsable, comprometida y creativa', 'Buenas habilidades de comunicación'],
+            referencia: ['Alonso Cuevas, +54 351-593-3123', 'Alirio Diaz, +54 351-613-2710', 'Emiliano Foglino, +54 351-206-1124'],
+            idioma: ['Español: Nativo', 'Ingles: Basico'],
+            linkeidn: 'https://www.linkedin.com/in/jenny-franco/',
+            instagram:'https://www.instagram.com/crear_wood/',
+            youtube:'https://www.youtube.com/@jennyfrancog',
+            experiencialaboral: [
+                { cargo: 'Operador Técnico', empresa: 'FullPrims, Servicio de fabricación adictiva 3D', fecha: '2022 CORDOBA', funcion: 'Ejecutar y asegurar la producción de piezas en impresión 3D, configuración del diseño (Laminado/slicer). Modelado 3D, pos procesado y ensamblaje. Elaboración de documentos técnicos, control de material e inventario.' },
+                { cargo: 'Coordinador Civil', empresa: 'TC Tech, Ingeniería Telecomunicaciones ', fecha: '2019 CORDOBA, Argentina', funcion: 'Gestión y revisión de obras civiles para proyectos de telecomunicaciones, avances de proyectos, supervisión en obra y coordinación de subcontratistas, confección de CAOs, cálculo de materiales y manejo de presupuesto. Córdoba Capital. Finalización de obras.' },
+                { cargo: 'Analista de Ingeniería', empresa: 'PDVSA S.A REFINACION ORIENTE', fecha: '2011- 2018. PUERTO LA CRUZ, Venezuela', funcion: 'Control de proyecto IPC y aplicación de mejores prácticas en el diseño de edificios operacionales, administrativos y residenciales; Supervisión de obra, evaluación y análisis de cambios de alcance en contratos, informes técnicos, manejo de estimados y presupuestos, revisión de materiales bajo especificaciones técnicas según normas y estándares de PDVSA. Renuncia propia' }],
+            images:[
+            'https://espanolcone-five.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdfddh08q8%2Fimage%2Fupload%2Fv1694366393%2Fimages%2Fbanner-principal_pqirib.png&w=1200&q=75'
+            ]
+
+        };
+    </script>
+    
+<div class="containerMain">
+
+    <section class="banner">
+        <!-- Foto de Fondo -->
+        <img class='img-background' src="background.jpg" alt='Background'/>
+
+        <div class="date-container">
+            <!-- Nombre -->
+            <h1><script>document.write(obj.name)</script></h1>
+            <!-- Profecion -->
+            <h3><script>document.write(obj.profesion)</script></h3>
+
+            <!-- Contacto Persona -->
+            <div class="contact">
+                <!-- Email -->
+                <a class="contact-link" href="mailto:jennyfrancog@gmail.com">
+                    <i class="contact-personal-icon fa fa-envelope"></i>
+                    <script>document.write(obj.email)</script>    
+                </a>
+                
+                <!-- Celular -->
+                <a class="contact-link">
+                    <i class="contact-personal-icon fa fa-phone"></i>
+                    <script>document.write(obj.cel)</script>    
+                </a>
+                
+                <!-- Direccion -->
+                <a class="contact-link">
+                    <i class="contact-personal-icon fa fa-map-marker"></i>
+                    <script>document.write(obj.direccion)</script>
+                </a>
+            </div>
+
+            <!-- Redes Sociales -->
+            <div class="contact">
+                <!-- Youtube -->
+                <a 
+                href="https://www.youtube.com/@jennyfrancog"
+                class="contact-icon fa fa-youtube-play"
+                target="_blank">
+                </a>
+                
+                <!-- Linkedink -->
+                <a 
+                href="https://www.linkedin.com/in/jenny-franco/"
+                class="contact-icon fa fa-linkedin-square"
+                target="_blank">
+                </a>
+                
+                <!-- Instagram-->
+                <a 
+                href="https://www.instagram.com/crear_wood/"
+                class="contact-icon fa fa-instagram"
+                target="_blank">
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Foto de perfil -->
+        <img class='img-perfil' src="imagen2.jpg" alt='Jenny Franco'/>
+    </section>
+    
+    <section class="row">
+        <!-- Titulo -->
+        <h3>Biografia<span></span></h3>
+           <img src='https://espanolcone-five.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdfddh08q8%2Fimage%2Fupload%2Fv1694366393%2Fimages%2Fbanner-principal_pqirib.png&w=1200&q=75'  alt="Descripción de la imagen">
+ 
+             <!-- El video youtube debe ir solo el ID en la ruta -->
+           <iframe
+    width="560"
+    height="315"
+    
+    src="https://www.youtube.com/embed/VPpgObvD8Cc"
+    title="Video de YouTube"
+    frameborder="0"
+    allowfullscreen
+  ></iframe>
+        <!-- Texto -->
+        <p><script>document.write(obj.bio)</script></p>
+       
+    </section>
+    <!-- Formacion -->
+    <section class="row dark">
+        <!-- Titulo -->
+        <h3>Formacion <span></span></h3>
+
+        <!-- Texto -->
+        <p><script>document.write(obj.formacion1)</script></p>
+        <p><script>document.write(obj.formacion2)</script></p>    
+    </section>
+
+    <!-- Herramientas -->
+    <section class="row">
+        <!-- Titulo -->
+        <h3>Herramientas<span></span></h3>
+
+        <!-- Texto -->
+        <p><script>document.write(obj.herramienta[0])</script></p>
+        <p><script>document.write(obj.herramienta[1])</script></p>                
+        <p><script>document.write(obj.herramienta[2])</script></p>
+        <p><script>document.write(obj.herramienta[3])</script></p>
+        <p><script>document.write(obj.herramienta[4])</script></p>
+        <p><script>document.write(obj.herramienta[5])</script></p>
+        <p><script>document.write(obj.herramienta[6])</script></p>
+    </section>
+    
+    <!-- Habilidades -->
+    <section class="row dark">
+        <!-- Titulo -->
+        <h3>Habilidades<span></span></h3>
+
+        <!-- Texto -->
+        <p><script>document.write(obj.habilidades[0])</script></p>
+        <p><script>document.write(obj.habilidades[1])</script></p>
+        <p><script>document.write(obj.habilidades[2])</script></p>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="row">
+        <h3>Experiencia Laboral<span></span></h3>
+        <div class="exp-container">
+            <div class="exp-container_item">
+                <h4><script>document.write(obj.experiencialaboral[0].empresa)</script></h4>                    
+                <p class="position"><script>document.write(obj.experiencialaboral[0].cargo)</script></p>
+                <p class="date"><script>document.write(obj.experiencialaboral[0].fecha)</script></p>
+                <p><script>document.write(obj.experiencialaboral[0].funcion)</script></p>
+            </div>
+            <div class="exp-container_item">
+                <h4><script>document.write(obj.experiencialaboral[1].empresa)</script></h4>                    
+                <p class="position"><script>document.write(obj.experiencialaboral[1].cargo)</script></p>
+                <p class="date"><script>document.write(obj.experiencialaboral[1].fecha)</script></p>
+                <p><script>document.write(obj.experiencialaboral[1].funcion)</script></p>
+            </div>
+            <div class="exp-container_item">
+                <h4><script>document.write(obj.experiencialaboral[2].empresa)</script></h4>                    
+                <p class="position"><script>document.write(obj.experiencialaboral[2].cargo)</script></p>
+                <p class="date"><script>document.write(obj.experiencialaboral[2].fecha)</script></p>
+                <p><script>document.write(obj.experiencialaboral[2].funcion)</script></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Referencia -->
+    <section class="row dark">
+        <h3>Referencia<span></span></h3>
+        <p><script>document.write(obj.referencia[0])</script></p>
+        <p><script>document.write(obj.referencia[1])</script></p>
+        <p><script>document.write(obj.referencia[2])</script></p>
+    </section>
+
+
+
+ </div>
+ 
+</body>
+
+</html>
