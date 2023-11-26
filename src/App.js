@@ -24,12 +24,13 @@ function App() {
       <div className="home">
         <div className="home-title-container">
           <div className="home-title">
-            <p className="souvenir">Souvenir</p>
-            <p className="print">3D Print</p>
+            <p className="souvenir">Claraboya</p>
+            <p className="print">Educativa</p>
           </div>
-          <p className="fiestas">para fiestas y eventos </p>
+          <p ></p>
+          <p className="fiestas">Para Escuelas Rurales </p>
           <p className="diseños">
-            Diseños creativos a medida de tus necesidades
+           Transforma las aulas con luz natural
           </p>
         </div>
         {home_mock.map((data, index) => (
