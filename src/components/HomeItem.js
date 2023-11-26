@@ -9,7 +9,9 @@ const HomeItem = ({item, index}) => {
       window.scrollTo(0, 0);
     }, []);
 
-    const styles =index % 2 === 0 ? {order: 1, color: "#F2BD67"} : {order: -1, color: "black"}
+    const styles =index % 2 === 0 ? {order: 1, color: "#F2BD67", display:"flex",justifyContent: 'center',flexDirection: 'column'} : {order: -1, color: "black",display:"flex",justifyContent: 'center',flexDirection: 'column',
+  
+    }
 
     return ( 
         <div className="row my-5">

@@ -62,7 +62,7 @@
 
 .faq-title {
   width: 100%;
-  color: var(--textos, #424242);
+  color: white;
   text-align: center;
   text-shadow: 10px 10px 20px rgba(255, 255, 255, 0.45);
   font-family: Pacifico;
