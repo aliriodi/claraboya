@@ -28,14 +28,19 @@ function App() {
             <p className="print"> Escolar</p>
           </div>
           <p ></p>
-          <p className="fiestas">Para Escuelas Rurales </p>
+          <div className="contenedorB">
+          <p className="fiestas">Transformando la Luz en Educación </p>
+          </div>
           <p className="diseños">
-           Transforma las aulas con luz natural
+          {/* Transformando la luz en educación */}
+           {/* Transforma las aulas con luz natural */}
           </p>
+          
         </div>
+        <div className="contenedorA">
         {home_mock.map((data, index) => (
           <HomeItem item={data} index={index} />
-        ))}
+        ))}</div>
         <div className="home-products-container">
           <p className="home-products-title">PRODUCTOS</p>
           <div className="home-products">

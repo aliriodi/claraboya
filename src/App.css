@@ -160,11 +160,17 @@
   font-weight: 700;
   line-height: 46px;
 }
+.contenedorA{
+  padding-top: 30px;
+}
+.contenedorB{
+  padding-top: 20px;
+}
 
 .fiestas {
   color: var(--f-6-b-2-bf, #f6b2bf);
   font-family: "Barlow";
-  font-size: 45px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 46px;
