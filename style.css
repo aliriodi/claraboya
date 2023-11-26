@@ -60,6 +60,61 @@ body::-webkit-scrollbar-thumb{
   border: 10px;
   }
 
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+/*Las 1eras 4 imagenes cruzadas*/
+.container {
+    width: 40%;
+    margin: 50px auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+.section1 {
+    /* width: 60%; */
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.section1 img {
+    max-width: 20%;
+    height: auto;
+ 
+    /* Agrega un espacio entre la imagen y el texto */
+}
+.section1 span {
+  max-width: 100%;
+  height: auto;
+
+  /* Agrega un espacio entre la imagen y el texto */
+}
+.separaciontop{
+  padding-top: 10%;
+}
+.textorIzquierda{
+  
+  width:50%;
+  margin-left: 180px;
+  border:2px solid  aqua;
+}
+.textorDerecha{
+  
+  margin-left: 40px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 /* /////// Round 2 /////// */
 
 .banner{
