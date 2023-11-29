@@ -52,7 +52,7 @@ const Footer = ({color}) => {
 
         <Col>
           <Stack gap={3}>
-            <div className="p-2">Seguinos para enterarte de las últimas novedades y ofertas:</div>
+            <div className="p-2">Seguinos para enterarte de las últimas novedades:</div>
             <div className="p-2">
               <div className="footer-icons">
                 <a href="https://www.instagram.com/crear_good/" target="_blank" rel="noopener noreferrer" className="footer-link">

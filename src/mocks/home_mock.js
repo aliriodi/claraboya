@@ -1,6 +1,6 @@
 import homec1 from "../assets/claraboya/2.png"
 import homec2 from "../assets/claraboya/Fachada LN.jpg"
-import homec3 from "../assets/claraboya/Planta LN.jpg"
+import homec3 from "../assets/claraboya/escuela.jpeg"
 import homec4 from "../assets/claraboya/Escuela1v2.png"
 
 export const home_mock = [
@@ -16,7 +16,7 @@ export const home_mock = [
     },
     {
         titulo: "Optimización Modular: Diseño Eficiente y Validación a través de Simulaciones",
-        texto: "Diseño modular de  (0,60 x 1,10 m) y  peso aproximado de 25 kg. Esta modulación se adapta a diferentes tipos de cubiertas livianas gracias a su versatilidad.  La ligereza y la capacidad autoportante facilitan la manipulación durante la fabricación y el montaje; simplicidad de las uniones y compatible con diferentes sistemas de fijación. Se llevaron a cabo comprobaciones y simulaciones utilizando software especializado con el objetivo de comparar las condiciones antes y después de la implementación. Estas simulaciones respaldaron la magnitud de las mediciones in situ, tanto en aspectos  térmicos como lumínicos. Confirmando que la claraboya cumple con los requerimientos de confort.",
+        texto: "Diseño modular de 0.60x 1.1m y peso un peso de aproximadamente 25 kg,  adaptable a diversas cubiertas livianas.  Su ligereza y capacidad autoportante simplifican la manipulación en la fabricación y el montaje. <br><br> Se realizaron  simulaciones con software especializado para evaluar las condiciones  con resultados  que confirman  que lampara natural cumple con los estándares de confort de iluminación y temperatura.",
         img: homec1
     },
     {
